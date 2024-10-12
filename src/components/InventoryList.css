@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.inventory-list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.inventory-title {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.styled-table thead tr {
+  background-color: #6b5b95;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1e3f3;
+}
+
+.styled-table tbody td {
+  font-weight: bold;
+  color: #333;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.inventory-title {
+  font-family: 'Times new roman', cursive, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.low-stock-text {
+  color: red; /* Red text for low stock indicator */
+  font-weight: bold;
+}
